@@ -1,0 +1,36 @@
+/*      
+
+
+Descendent Selectors                                     
+The next step in specifying elements you want to style withh CSS
+is to target descendents or elements nested within other elements.
+EXAMPLE:
+You want to style only the bolded text nested within <li> elements. 
+type the parent tag first, then a space (not a comma)
+and then the tag immediately enclosing the target text.*/
+
+li b {
+color:orange
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

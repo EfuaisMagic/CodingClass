@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Title of the document</title>
+    </head>
+        
+    <body>
+        <h1>Forms</h1>
+
+        <p>
+            The form element has no visual impact in and of iteself.<br>
+            It represents a section of <b>fields</b><br>
+            for submitting <b>user information</b>
+        
+
+        <h1>Form Attributes</h1>
+        <ul style="list-style-type:none;">
+            <li>&lt;form attribute="..."&gt;</li>
+            <li>&lt;form&gt;</li>
+           </ul> 
+        &lt;/form&gt;
+
+           <ul style="list-style-type:none;">
+                <li><b>action =</b> specifies where (file on server) to send form-data when form is submitted.</li>
+                <i><b>If the <b>action</b> attribute is omitted, the action is set to the current page.</b></i>
+                <li><b>target = </b>specifies where to display response that is received after submitting
+                    <ul style="list-style-type:none;">
+                        <li><b><i>_blank</i></b>	the response is displayed in a new window or tab</li>
+                        <li><b><i>_self</i></b>	the response is displayed in the current window<br>
+                        </li>
+                        <li><i><b>_parent</b></i>	the response is displayed in the parent frame</li>
+                        <li><b><i>_top</i></b>	the response is displayed in the full body of the window</li>
+                        <li><i><b>framename</b></i>	the response is displayed in a named iframe</li>
+                        <i><b>The default value is _SELF which means that the response will open in the current window.</b></i>
+
+                    </ul>
+                </li>
+                <li><b>name =</b> specifies  name of the form</li>
+                <li><b>method =</b> specifies the HTTP method to use when sending form-data<br>
+                    <ul style="list-style-type:none;">
+                        <li><b><i>get</i></b> form data can be sent as URL variables </li>
+                        <li><b><i>post</i></b> form data can be sentas HTTP post transaction </li>
+                        <i><b>The default value is GET.</b></i>
+                    </ul>
+                </li>
+                <li><b>autocomplete =</b> specifies whether form should have autocomplete on or offe
+                    <ul style="list-style-type:none;">
+                        <li>on</li>
+                        <li>off</li>
+                    </ul>
+                </li>
+                <li><b>enctype</b>- specifies how form-data should be encoded when submitted to server (only for method="post")       </li>
+                <li><b>accept</b>-charset -Specifies character encodings used for form submissiont</li>
+                <li><b>novalidate</b>- specifies form should not be validated when submitted</li>
+                <li><b>rel</b>- specifies relationship between linked resource and current document</li>
+            </ul>
+           
+        <h1>Form Elements:</h1>
+        &lt;form attribute="..."&gt;
+        <ul style="list-style-type:none;">
+            <li>&lt;formelement&gt;...&lt;/formelement&gt;</li>
+           </ul> 
+        &lt;/form&gt;
+        
+        <ul style="list-style-type:none;">
+            <li><b>fieldset</b>-Groups related elements in a form</li>
+            <li><b>label</b>-Defines a label for an input element</li>
+            <li><b>optgroup</b>-Defines a group of related options in a drop-down list</li>
+            <li><b>output</b>-Defines the result of a calculation</li>
+            <li><b>option</b>-Defines an option in a drop-down list</li>
+            <li><b>legend</b>-Defines a caption for a <b>fieldset</b> element</li>
+            <li><b>datalist</b>-Specifies a list of pre-defined options for input controls</li>
+            <li><b>select</b>-Defines a drop-down list</li>
+            <li><b>textarea</b>-Defines a multiline input control (text area)</li> 
+            <li><b>input</b>-One of the most used form elements. Defines an input control</li>
+        </ul>
+    </body>
+</html>

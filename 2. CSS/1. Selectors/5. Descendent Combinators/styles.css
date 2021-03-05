@@ -1,0 +1,22 @@
+/* Descendent Combinators*//*
+
+
+EXAMPLE:
+You have three tables and you want each to have a different style on its bold list items.
+Apply a different id to each parent and create your rules
+*/
+
+
+#ul1 li b {
+    color:orangered
+}                                                                                 
+
+#ul2 li b{
+    color:greenyellow
+}                                                                                 
+
+#ul3 li b {
+    color:blueviolet
+}   
+
+

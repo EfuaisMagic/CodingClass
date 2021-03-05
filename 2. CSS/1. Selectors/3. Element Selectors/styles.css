@@ -1,0 +1,15 @@
+/* Element  Selectors*/
+
+/*      
+The simplest application of specifying which HTML elements you wish to style using CSS
+is to target all like elements with one selector.
+EXAMPLE:
+You want to style all bolded text on your page. 
+Just type the <b> tag once
+and create style rules. 
+They will apply to all HTML elements with the <b> tag.
+
+b { 
+	color: orange
+}
+

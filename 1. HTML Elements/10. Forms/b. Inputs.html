@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Title of the document</title>
+    </head>
+        
+    <body> 
+        <h1>Input Types</h1>
+        &lt;form attribute="..."&gt;
+        <ul style="list-style-type:none;">
+            <li>&lt;formelement&gt;...&lt;/formelement&gt;</li>
+            <li>&lt;input type="..."&gt;
+           </ul> 
+        &lt;form&gt;
+
+
+        
+        <h1>Input Attributes</h1>
+        &lt;form attribute="..."&gt;
+        <ul style="list-style-type:none;">
+            <li>&lt;formelement&gt;...&lt;/formelement&gt;</li>
+            <li>&lt;input type="..." attribute="..." attribute="..." &gt;
+           </ul> 
+        &lt;form&gt;
+        
+
+
+        <table class="standard-table">
+            <thead>
+             <tr>
+              <th scope="col">Attribute</th>
+              <th scope="col">Type or Types</th>
+              <th scope="col">Description</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td><a href="#htmlattrdefaccept">accept</a></td>
+              <td>file</td>
+              <td>Hint for expected file type in file upload controls</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefalt">alt</a></td>
+              <td>image</td>
+              <td>alt attribute for the image type. Required for accessibility</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefautocomplete">autocomplete</a></td>
+              <td>all</td>
+              <td>Hint for form autofill feature</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefautofocus">autofocus</a></td>
+              <td>all</td>
+              <td>Automatically focus the form control when the page is loaded</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefcapture">capture</a></td>
+              <td>file</td>
+              <td>Media capture input method in file upload controls</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefchecked">checked</a></td>
+              <td>radio, checkbox</td>
+              <td>Whether the command or control is checked</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefdirname">dirname</a></td>
+              <td>text, search</td>
+              <td>Name of form field to use for sending the element's directionality in form submission</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefdisabled">disabled</a></td>
+              <td>all</td>
+              <td>Whether the form control is disabled</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefform">form</a></td>
+              <td>all</td>
+              <td>Associates the control with a form element</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefformaction">formaction</a></td>
+              <td>image, submit</td>
+              <td>URL to use for form submission</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefformenctype">formenctype</a></td>
+              <td>image, submit</td>
+              <td>Form data set encoding type to use for form submission</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefformmethod">formmethod</a></td>
+              <td>image, submit</td>
+              <td>HTTP method to use for form submission</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefformnovalidate">formnovalidate</a></td>
+              <td>image, submit</td>
+              <td>Bypass form control validation for form submission</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefformtarget">formtarget</a></td>
+              <td>image, submit</td>
+              <td>Browsing context for form submission</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefheight">height</a></td>
+              <td>image</td>
+              <td>Same as <code>height</code> attribute for <a href="/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a>; vertical dimension</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdeflist">list</a></td>
+              <td>almost all</td>
+              <td>Value of the id attribute of the <a href="/en-US/docs/Web/HTML/Element/datalist"><code>&lt;datalist&gt;</code></a> of autocomplete options</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefmax">max</a></td>
+              <td>numeric types</td>
+              <td>Maximum value</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefmaxlength">maxlength</a></td>
+              <td>password, search, tel, text, url</td>
+              <td>Maximum length (number of characters) of <code>value</code></td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefmin">min</a></td>
+              <td>numeric types</td>
+              <td>Minimum value</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefminlength">minlength</a></td>
+              <td>password, search, tel, text, url</td>
+              <td>Minimum length (number of characters) of <code>value</code></td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefmultiple">multiple</a></td>
+              <td>email, file</td>
+              <td>Boolean. Whether to allow multiple values</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefname">name</a></td>
+              <td>all</td>
+              <td>Name of the form control. Submitted with the form as part of a name/value pair.</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefpattern">pattern</a></td>
+              <td>password, text, tel</td>
+              <td>Pattern the <code>value</code> must match to be valid</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefplaceholder">placeholder</a></td>
+              <td>password, search, tel, text, url</td>
+              <td>Text that appears in the form control when it has no value set</td>
+             </tr>
+             <tr>
+              <td><a href="/en-US/docs/Web/HTML/Attributes/readonly">readonly</a></td>
+              <td>almost all</td>
+              <td>Boolean. The value is not editable</td>
+             </tr>
+             <tr>
+              <td><a href="/en-US/docs/Web/HTML/Attributes/required">required</a></td>
+              <td>almost all</td>
+              <td>Boolean. A value is required or must be check for the form to be submittable</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefsize">size</a></td>
+              <td>email, password, tel, text</td>
+              <td>Size of the control</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefsrc">src</a></td>
+              <td>image</td>
+              <td>Same as <code>src</code> attribute for <a href="/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a>; address of image resource</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefstep">step</a></td>
+              <td>numeric types</td>
+              <td>Incremental values that are valid.</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdeftype">type</a></td>
+              <td>all</td>
+              <td>Type of form control</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefvalue">value</a></td>
+              <td>all</td>
+              <td>At first, the initial value if specified explicitly in HTML. More generally, the current value of the form control. Submitted with the form as part of a name/value pair.</td>
+             </tr>
+             <tr>
+              <td><a href="#htmlattrdefwidth">width</a></td>
+              <td>image</td>
+              <td>Same as <code>width</code> attribute for <a href="/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a></td>
+             </tr>
+            </tbody>
+           </table>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
